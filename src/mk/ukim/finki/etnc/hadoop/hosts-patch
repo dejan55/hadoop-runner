@@ -1,0 +1,10 @@
+# add the folowing at the end of your hosts file (/etc/hosts for linux and C:\\Windows\System32\Drivers\etc\hosts for windows) 
+127.0.0.1			hadoop-ambari-slave-1.finki.ukim.mk
+127.0.0.1			hadoop-ambari-slave-2.finki.ukim.mk
+127.0.0.1			hadoop-ambari-slave-3.finki.ukim.mk
+127.0.0.1			hadoop-ambari-slave-4.finki.ukim.mk
+127.0.0.1			hadoop-ambari-slave-5.finki.ukim.mk
+127.0.0.1			hadoop-ambari-slave-6.finki.ukim.mk
+
+127.0.0.1 			hadoop-ambari-master-1.finki.ukim.mk
+127.0.0.1 			hadoop-ambari-master-2.finki.ukim.mk

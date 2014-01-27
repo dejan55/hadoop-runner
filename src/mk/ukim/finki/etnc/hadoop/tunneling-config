@@ -1,0 +1,18 @@
+# for your Putty session, in the Connection->SSH-> Tunnels configure the following forwarding
+
+# slaves access and monitoring 
+50010 -> 10.0.1.101:50010
+50075 -> 10.0.1.101:50075
+8010  -> 10.0.1.101:8010
+
+# mapred.job.tracker (for job submitting and monigoring)
+50030 -> 10.0.1.202:50030
+50300 -> 10.0.1.202:50300
+
+# for dfs.http.address (monitoring of the progress of the tasks) 
+50070 -> 10.0.1.201:50070
+
+# for fs.default.name (for hdfs file system access) 
+8020  -> 10.0.1.201:8020
+
+
