@@ -72,6 +72,8 @@ public class FinkiHadoopDriver {
 		final Properties prop = new Properties();
 		prop.load(FinkiHadoopDriver.class
 				.getResourceAsStream("config.properties"));
+		
+	
 
 		ugi.doAs(new PrivilegedExceptionAction<Void>() {
 

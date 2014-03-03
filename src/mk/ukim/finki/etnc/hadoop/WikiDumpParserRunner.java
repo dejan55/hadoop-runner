@@ -1,7 +1,7 @@
 package mk.ukim.finki.etnc.hadoop;
 
+import mk.ukim.finki.etnc.hadoop.wikidump.WikiDumpParseMapper;
 import mk.ukim.finki.etnc.hadoop.xml.XmlInputFormat;
-import mk.ukim.finki.etnc.wikidump.WikiDumpParseMapper;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
